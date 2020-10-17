@@ -13,7 +13,6 @@
 
     const ghost = document.createElement('div')
     ghost.style = 'display:none'
-    console.log(document.querySelector('mat-drawer-content'))
     document.querySelector('mat-drawer-content').addEventListener('click', () => {
         createCopyBtn()
     }, {catch: 'true'})
