@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Besides two download buttons in the sidebar, also creates a button to instantly copy the icon SVG
-// @author       You
+// @author       nt4f04und
 // @include      https://material.io/resources/icons/*
 // @grant        none
 // ==/UserScript==
