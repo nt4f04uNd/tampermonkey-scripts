@@ -13,12 +13,11 @@
 
     const ghost = document.createElement('div')
     ghost.style = 'display:none'
+    console.log(document.querySelector('mat-drawer-content'))
+    document.querySelector('mat-drawer-content').addEventListener('click', () => {
+        createCopyBtn()
+    }, {catch: 'true'})
     createCopyBtn()
-    document.querySelectorAll('icons-item').forEach(icon => {
-        icon.addEventListener('click', () => {
-            createCopyBtn()
-        })
-    })
 
     function createCopyBtn() {
         if (!document.querySelector('#copy-btn')) {
